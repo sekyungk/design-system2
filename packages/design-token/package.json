@@ -1,0 +1,25 @@
+{
+  "name": "@sekyungk/design-token2",
+  "version": "0.0.7",
+  "description": "Design Token",
+  "type": "module",
+  "source": "src/index.ts",
+  "types": "dist/index.d.ts",
+  "main": "dist/design-token.cjs",
+  "module": "dist/design-token.module.js",
+  "umd:main": "dist/design-token.umd.js",
+  "scripts": {
+    "build": "microbundle",
+    "release": "npm publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sekyungk/design-system2.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "devDependencies": {
+    "microbundle": "^0.13.3"
+  }
+}
