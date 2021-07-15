@@ -14,6 +14,9 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
 
+      - name: Pre Build
+        run: yarn && yarn build
+
       - name: Build
         run: yarn && yarn build
         working-directory: ${{ env.working-directory }}
