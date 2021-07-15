@@ -8,6 +8,7 @@ jobs:
     environment: storybook
     env:
       working-directory: ./docs
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
     steps:
       - name: Checkout
