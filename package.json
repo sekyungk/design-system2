@@ -6,8 +6,7 @@
     "docs"
   ],
   "scripts": {
-    "build": "yarn workspaces foreach run build",
-    "build:storybook": "yarn workspace docs run build",
+    "build": "yarn workspaces foreach run build -pt",
     "release": "yarn workspaces foreach run release"
   },
   "devDependencies": {
