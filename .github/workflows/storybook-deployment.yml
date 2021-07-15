@@ -5,6 +5,7 @@ jobs:
   deploy:
     name: Deploy
     runs-on: ubuntu-latest
+    environment: storybook
     env:
       working-directory: ./docs
 
