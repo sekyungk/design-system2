@@ -5027,6 +5027,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./docs/",
           "packageDependencies": [
             ["docs", "workspace:docs"],
+            ["@sekyungk/design-token2", "workspace:packages/design-token"],
             ["@types/node", "npm:16.3.2"],
             ["@types/react", "npm:17.0.14"],
             ["@types/react-dom", "npm:17.0.9"],

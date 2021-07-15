@@ -3456,6 +3456,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "docs@workspace:docs"
   dependencies:
+    "@sekyungk/design-token2": "workspace:packages/design-token"
     "@types/node": ^16.3.2
     "@types/react": ^17.0.14
     "@types/react-dom": ^17.0.9
