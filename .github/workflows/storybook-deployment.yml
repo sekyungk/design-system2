@@ -14,7 +14,10 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
 
-      - name: Build
+      - name: Build1
+        run: yarn && yarn build:storybook
+
+      - name: Build2
         run: yarn && yarn build
         working-directory: ${{ env.working-directory }}
 
