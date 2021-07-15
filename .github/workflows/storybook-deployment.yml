@@ -16,7 +16,3 @@ jobs:
 
       - name: Build
         run: yarn && yarn build
-        working-directory: ${{ env.working-directory }}
-
-      - name: Test
-        run: echo ${{ secrets.AWS_SECRET_ACCESS_KEY }}
