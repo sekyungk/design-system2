@@ -1,5 +1,6 @@
 {
   "name": "docs",
+  "private": true,
   "scripts": {
     "storybook": "start-storybook -p 6006",
     "build": "build-storybook -o ./dist"
